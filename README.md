@@ -1,1 +1,1 @@
-This Repo is foo Shan Python Learning :thumbsup:
+This Repo is for Shan Python Learning :thumbsup::smile::python:
