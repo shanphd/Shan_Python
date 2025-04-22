@@ -1,0 +1,23 @@
+version = 1
+revision = 2
+requires-python = ">=3.13"
+
+[[package]]
+name = "shan-uv"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "stanfordkarel" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "stanfordkarel", specifier = ">=0.2.7" }]
+
+[[package]]
+name = "stanfordkarel"
+version = "0.2.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c2/fb/820f2da1222036286bda997b74aa40fb4d0bedd414667b7d0392c7318d87/stanfordkarel-0.2.7.tar.gz", hash = "sha256:54f22ac198ef1db7af8e9557f1830f8acc220e001d7fb511d82849d4236ee5f5", size = 43328, upload_time = "2022-10-14T07:30:17.82Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0c/ee/65510dbb7dbaccb9f22763092a4731ef55c74fa5e7f3ccf6a6b84aaa519b/stanfordkarel-0.2.7-py3-none-any.whl", hash = "sha256:840b0fc759484631e81e2131de6932703677213f90c196d1e88920b429f921d0", size = 51889, upload_time = "2022-10-14T07:30:16.295Z" },
+]
